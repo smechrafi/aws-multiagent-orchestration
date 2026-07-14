@@ -1,0 +1,3 @@
+strands-agents[a2a,ollama]
+strands-agents-tools
+mcp
