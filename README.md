@@ -1,6 +1,14 @@
 # Système multi-agents AWS (Strands · A2A · MCP · RAG)
 
-Un petit système multi-agents en Python qui met en œuvre, sur un cas concret orienté AWS, les quatre briques d'une architecture agentique moderne : orchestration, A2A, MCP et RAG. Il tourne **en local** via Ollama — aucun credential, aucun coût — ou sur **AWS Bedrock** si vous préférez un modèle cloud.
+[Toujours en cours de développement et d'amélioration]
+
+## Contexte du projet : 
+
+Dans le cadre d'un workshop spécial Donjons & Dragons (DnD) proposé par Amazon Web Services et l'association AWS Student Builder Group @EFREI, nous avions commencé à coder un maître du Jeu capable d'orchestrer plusieurs agents IA, chacun spécialisé dans une tache précise (lancer des dés, vérifier les règles du DnD..)
+
+Mais j'ai eu ensuite une autre idée.. Pourquoi pas reprendre ce projet afin d'avoir plusieurs agents IA qui aide les personnes souhaitant se certifier en technologies AWS (notamment la certification Certified Cloud Practitioner)
+
+Désormais, je souhaite vous présenter un petit système multi-agents en Python qui met en œuvre, sur un cas concret orienté AWS, les quatre briques d'une architecture agentique moderne : orchestration, A2A, MCP et RAG. Il tourne **en local** via Ollama — aucun credential, aucun coût — ou sur **AWS Bedrock** si vous préférez un modèle cloud (payant).
 
 Le principe : vous posez une question en langage naturel, un agent orchestrateur la décompose et appelle lui-même le bon outil — estimer un coût AWS, définir un terme, chercher une fiche de révision ou donner l'heure.
 
